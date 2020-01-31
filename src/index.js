@@ -5,7 +5,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { Provider } from "react-intl-redux";
 import "intl-pluralrules";
-import "@formatjs/intl-relativetimeformat/polyfill";
+//import "@formatjs/intl-relativetimeformat/polyfill";
 import store from "./store";
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "@apollo/react-hooks";
